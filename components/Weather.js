@@ -6,6 +6,7 @@ import { weatherConditions } from '../utils/WeatherConditions';
 
 
 const Weather = ({ weather, temperature, location,}) => {
+    
     return (
         <View style = {[styles.weatherContainer,{ backgroundColor: weatherConditions[weather].color}]}>
             <View style = {styles.headerContainer}>
